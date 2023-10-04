@@ -455,23 +455,25 @@ let person = {
     friends: ["Steve", "Nikola", "Ray", { name: "Jai", lastName: "Roy" }]
 };
 
-function superClone(obj) {
-    //    create new object
-    let newobj = {};
-    // copy all the keys and values
-    for (let key in obj) {
-        let isKeyObj = typeof obj[key];
-
-        if (isKeyObj == "object") {
-            let newSmallCopiedObj = superClone(obj[key]);
-            newobj[key] = newSmallCopiedObj
+let superClone = (object) => {
+    let isArr = Array.isArray(object);
+    let cloning = isArr ? [] : {};
+    for (let prop in object) {
+        if (Array.isArray(object[prop])) {
+            cloning[prop] = [...object[prop]];
+            for (let i = 0; i < cloning[prop].length; i++) {
+                if (cloning[prop][i] == "object") {
+                    cloning[prop][i] = superClone(object[prop][i]);
+                }
+            }
+        } else if (typeof object[prop] === "object") {
+            cloning[prop] = superClone(object[prop]);
         } else {
-            newobj[key] = obj[key];
+            cloning[prop] = object[prop];
         }
     }
-    //   retrun the obj
-    return newobj;
-}
+    return cloning;
+};
 
 let deeplyClonedObj = superClone(person);
 deeplyClonedObj.lastName = "Odinson";
@@ -627,7 +629,3 @@ person = {
 
 ---
 
-
-1. Whatsapp: Notes
-2. mentees  
-1. Experience mentee
