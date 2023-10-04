@@ -250,8 +250,6 @@ console.log("After");
 * The code continues to run. However, there's a delay of 2 seconds specified for the cb function execution, so the "I will explode" message, along with the value of a (which is 100), will be logged to the console after 2 seconds.
 
 ---
-## 6. Closure Question 2 var and closure
-
 Give the output of the below code:
 
 ```javascript
@@ -259,7 +257,6 @@ function outer() {
     let arrFn = [];
     for (var i=0;i<3;i++) {
         arrFn.push(function fn() {
-            i++;
             console.log(i);
         })
     }
@@ -310,6 +307,7 @@ arrFn[2]();
 ```
 **Answer:**
 
+
 * When declared inside a block (for example, inside a loop or if statement), variables declared with let have block scope, but arrFn is declared within outer's function body, so its scope is limited to the function body. 
 * As a result, it can be accessed throughout the entire function, but not outside of it.
  
@@ -348,6 +346,8 @@ arrFn[2]();
 * Calling arrFn[1] also logs 3 to the console.
 * ArrFn[2] also logs 3 to the console when called.
 * Since i is incremented in the loop, you might expect these functions to log 0, 1, and 2, respectively. All of them, however, log 3. This id due to JavaScript's closure system:
+
+
 
 ---
 title: Closure Question 4
