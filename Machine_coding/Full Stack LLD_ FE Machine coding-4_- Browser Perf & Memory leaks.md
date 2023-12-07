@@ -1,10 +1,8 @@
 # Full Stack LLD: FE Machine coding-4:- Browser Perf & Memory leaks
 
 ---
-title: Agenda
+
 description: Things that will be covered in today's session
-duration: 90
-card_type: cue_card
 ---
 
 # Agenda
@@ -23,8 +21,6 @@ Let us start first with the nested comment box and how to implement it.
 ---
 title: Nested comment box
 description: What is a nested comment box problem description
-duration: 600
-card_type: cue_card
 ---
 
 
@@ -48,8 +44,7 @@ Now, let us see a problem related to the nested comment box.
 ---
 title: Nested comment box
 description: Writing the code 
-duration: 4080
-card_type: cue_card
+
 ---
 
 ## Problem statement
@@ -273,8 +268,7 @@ function createReplyInput(e) {
 ---
 title: Memory Leaks
 description: What are memory leaks and how to identify memory leaks
-duration: 1620
-card_type: cue_card
+
 ---
 
 ## Definition:

@@ -1,23 +1,13 @@
 # Full Stack LLD: FE Machine coding-3: - Machine coding case studies
 
----
-title: Agenda of the lecture
-description: What will be covered in the topic?
-duration: 120
-card_type: cue_card
----
+
 
 ## Agenda
 * Learning about frontend machine coding round.
 * Create a star rating component.
 * Create a countdown timer Part-1.
 
----
-title: Frontend Machine Coding Round
-description:
-duration: 500
-card_type: cue_card
----
+
 
 > Ask the students if they are familiar with machine coding rounds. Also ask if they have appeared for one in the past.
 
@@ -33,12 +23,7 @@ card_type: cue_card
 * Many renowned companies like Google, Amazon, Flipkart, Walmart conduct it.
 
 
----
-title: Star Rating Component
-description:
-duration: 2800
-card_type: cue_card
----
+
 
 > Start by showing a glimpse of the component that we are creating. 
 ![](https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/049/346/original/upload_9e087c44cc8c1b0dd4b82b92137953a2.png?1695181209)
@@ -377,12 +362,7 @@ function changeStars(idx) {
 
 Our web page now works as expected. 
 
----
-title: Countdown Timer
-description:
-duration: 1500
-card_type: cue_card
----
+
 
 > Start by showing a glimpse of the component that we are creating. 
 ![](https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/049/350/original/upload_51b4020ecfa59e0029a812c1baed0c79.png?1695181571)

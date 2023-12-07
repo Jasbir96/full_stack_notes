@@ -3,8 +3,6 @@
 ---
 title: Agenda of the lecture
 description: What will be covered in the topic?
-duration: 420
-card_type: cue_card
 ---
 
 ## Agenda
@@ -18,8 +16,7 @@ card_type: cue_card
 ---
 title: Building UI for finished and pending 
 description: Building UI for the two sections of the project finished and pending.
-duration: 865
-card_type: cue_card
+ 
 ---
 
 ## Building UI for finished and pending 
@@ -119,8 +116,6 @@ card_type: cue_card
 ---
 title: Drag and Drop Example
 description: 
-duration: 2280
-card_type: cue_card
 ---
 
 ## Drag and Drop
@@ -247,8 +242,7 @@ When will you know that we have dropped in the valid area? Using `drop` or `drag
 ---
 title: Adding Drag and Drop to Kanban box
 description: 
-duration: 4113
-card_type: cue_card
+
 ---
 
 ### Adding Drag and Drop to the Kanban box
@@ -350,8 +344,7 @@ How we pulled it off:
 ---
 title: Accessibility
 description: To make your application accessible to people with special abilities
-duration: 7290
-card_type: cue_card
+
 ---
 
 ## Accessibility 

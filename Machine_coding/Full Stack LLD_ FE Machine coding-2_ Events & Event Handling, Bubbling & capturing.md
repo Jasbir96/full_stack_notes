@@ -2,7 +2,6 @@
 
 ---
 
-
 ## Agenda
 * Fragments and their use cases
 * Event Handling
@@ -146,12 +145,6 @@ We have a parameter called `once` to be set to true and it will call the functio
 box.addEventListener("click", cb,{once:true});
 ```
 
----
-title: Common Event Handling
-description: Some of the most commonly used events.
-duration: 2540
-card_type: cue_card
----
 
 ## Event Handling
 Different ways to interact with the webpage:
@@ -208,12 +201,7 @@ Event occurs on all of these, but are visible only when an event listener is set
 
 * An object is passed to the callback function that returns what key is pressed or basically what event has occurred.
 
----
-title: Question 1
-description: Show ticket booking question.
-duration: 3590
-card_type: cue_card
----
+
 
 ## Question 1
 You are given a movie booking website having a filter with few options. We are supposed to make the filter work. Each movie card is given a few attributes and an attribute `data-category` containing a string that matches the filter string.
@@ -259,12 +247,7 @@ You are given a movie booking website having a filter with few options. We are s
 * Intuition for filtration is first identified where to get the input from, how to navigate the DOM tree, do the changes, and return.
 * If the filter matches then change `display` to `block` else set it to `none`.
 
----
-title: Event Bubbling
-description: Event bubbling is passing of message from child event listeners to parent event listeners.
-duration: 5340
-card_type: cue_card
----
+
 
 ## Event Bubbling
 When an event occurs on an element, then that event travels up from itself to the document via all the ancestor elements is known as **Event Bubbling**.
@@ -354,12 +337,7 @@ In the example below, when we click on the innermost button, then innerBox, oute
 * **event.stopPropogation():** This function prevents further propagation of the current event bubbling.
 * **event.stopImmediatePropogation():** If several listeners are attached to the same element for the same event type, they are called in the order in which they were added. If `stopImmediatePropagation()` is invoked during one such call, no remaining listeners will be called, either on that element or any other element.
 
----
-title: Question 2
-description: Event bubbling test question
-duration: 6300
-card_type: cue_card
----
+
 ## Question 2
 Use a single event handler(only one element should have an event handler attached to it) and do the following:
 On clicking the color name change the background color of the div.container to the same.
@@ -414,12 +392,7 @@ On clicking the color name change the background color of the div.container to t
     </script>
 ```
 
----
-title: Question 3
-description: Real life example of event listeners
-duration: 6750
-card_type: cue_card
----
+
 
 ## Question 3
 You're creating an online shopping website with a list of products.

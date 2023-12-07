@@ -1,4 +1,5 @@
-# Full Stack LLD: FE Machine coding-6:- Typeahead[Intersection Obs, Debouncing, Throttling]
+# Full Stack LLD: FE Machine coding-6:- Typeahead part-1
+
 
 ---
 title: Agenda of the lecture

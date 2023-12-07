@@ -2,8 +2,7 @@
 ---
 title: Agenda
 description: Previous class brief and what we will discuss in this lecture
-duration: 300
-card_type: cue_card
+
 ---
 
 In this lecture we will discuss the following topics:
@@ -15,8 +14,6 @@ In this lecture we will discuss the following topics:
 ---
 title: Bishop Chessboard
 description: How to create a UI for a chessboard (8 * 8 square)
-duration: 3600
-card_type: cue_card
 ---
 
 - A chessboard contains 8*8 square boxes in white and black color.
@@ -283,8 +280,6 @@ The final javascript code will look like this:
 ---
 title: HTTP Protocol
 description: What are HTTP Protocol and how the communication happens over the internet
-duration: 1440
-card_type: cue_card
 ---
 Now, we will discuss what are the HTTP protocols.
 

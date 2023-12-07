@@ -3,8 +3,7 @@
 ---
 title: Agenda of the lecture
 description: What will be covered in the topic?
-duration: 120
-card_type: cue_card
+
 ---
 
 ## Agenda
@@ -25,8 +24,7 @@ So let's start.
 ---
 title: Create Ticket UI
 description: Discussion about the creating the ticket UI  in detail.
-duration: 2100
-card_type: cue_card
+
 ---
 
 ## Create Ticket UI
@@ -92,8 +90,7 @@ So we have to create these parts as follows:
 ---
 title: Color change, Content edit and Delete ticket
 description: Discussion about the Color change, Content edit and Delete ticket functions in detail.
-duration: 2100
-card_type: cue_card
+
 ---
 
 ## Color Change, Content Edit and Delete Ticket
@@ -381,8 +378,7 @@ In summary, the `handleDelete` function allows the user to delete a specific tic
 ---
 title: Intution behind the local storage
 description: Discussion about the various characteristics of local storage in detail.
-duration: 2100
-card_type: cue_card
+
 ---
 
 ## Intution Behind the Local Storage
@@ -423,8 +419,7 @@ Local storage is a client-side web storage mechanism provided by modern web brow
 ---
 title: The local storage code example
 description: Discussion about the example code for the local storage in detail.
-duration: 2100
-card_type: cue_card
+
 ---
 
 ## Local Storage Code Example
@@ -511,8 +506,7 @@ Here's a detailed explanation of the code:
 ---
 title: Adding the local storage to the project
 description: Discussion about the various usage and the functionalities of the local storage in project in detail.
-duration: 2100
-card_type: cue_card
+
 ---
 
 ## Adding the Local Storage to The Project

@@ -3,8 +3,7 @@
 ---
 title: Agenda of the lecture
 description: What will be covered in the topic?
-duration: 120
-card_type: cue_card
+
 ---
 
 ## Agenda
@@ -30,8 +29,6 @@ So let's start.
 ---
 title: Kanban Board
 description: Discussion about the various functionalities with html, css and javascript code in detail.
-duration: 2100
-card_type: cue_card
 ---
 
 ## Demo of the project:

@@ -1,14 +1,11 @@
 # Full Stack LLD: FE Machine coding-3:-Machine coding case studies-2
 
 ---
-title: Agenda of the lecture
 description: What will be covered in the topic?
 duration: 120
-card_type: cue_card
 ---
 
 ## Agenda
-
 
 We will try to cover most of these topics in today's sessions and the remaining in the next.
 * CountDown Timer - 2
@@ -21,8 +18,7 @@ So let's start.
 ---
 title: CountDown Timer
 description: Discussion of adding the functionalities of start,pause,continue and reset.
-duration: 2100
-card_type: cue_card
+
 ---
 
 ## CountDown Timer

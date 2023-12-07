@@ -3,8 +3,7 @@
 ---
 title: Agenda of the lecture
 description: What will be covered in the topic?
-duration: 120
-card_type: cue_card
+
 ---
 
 ## Agenda
@@ -25,8 +24,7 @@ So let's start.
 ---
 title: Intuition for debouncing and throttling 
 description: Explain what is debouncing and throttling and their use cases.
-duration: 2100
-card_type: cue_card
+
 ---
 
 # Intuition for Debouncing and Throttling
@@ -82,8 +80,7 @@ In this example, the `debounce` function is used to wrap with a 10-millisecond d
 ---
 title: Code for throttling and debouncing 
 description: Explain and implement the codes for the throttling and debouncing.
-duration: 2100
-card_type: cue_card
+
 ---
 
 ## Throttle function
@@ -220,8 +217,6 @@ Now, let's explain the code step by step:
 ---
 title: Abort controller code example 
 description: Show the use of the `AbortController` and the `AbortSignal` interfaces.
-duration: 2100
-card_type: cue_card
 ---
 
 ## Abort controller code example
@@ -280,8 +275,7 @@ The code demonstrates the use of the `AbortController` and the `AbortSignal` int
 ---
 title: Request with timeout
 description: Will be explaining to add a timeout to a fetch request.
-duration: 2100
-card_type: cue_card
+
 ---
 
 
@@ -351,8 +345,7 @@ By adding this timeout mechanism, you can ensure that the fetch request won't ta
 ---
 title: Cancelling older requests using abort controller
 description: Explore and explain the code for cancelling older requests using abort controller.
-duration: 2100
-card_type: cue_card
+
 ---
 
 ## Cancelling Older Requests Using Abort Controller
@@ -428,8 +421,7 @@ Request cancellation using the `AbortController` methodology is a powerful techn
 ---
 title: Caching API request
 description: Explore the designe to implement caching for API requests.
-duration: 2100
-card_type: cue_card
+
 ---
 
 ## Caching API Request
