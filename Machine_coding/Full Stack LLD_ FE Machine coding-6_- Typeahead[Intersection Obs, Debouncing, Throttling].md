@@ -14,7 +14,6 @@ We will try to cover most of these topics in today's sessions and the remaining 
 * AutoComplete/Typeahead
 * Make API request (Fetch API)
 * Debouncing / Throttling applications
-* Windowing 
 * Removing the state request
 
 
