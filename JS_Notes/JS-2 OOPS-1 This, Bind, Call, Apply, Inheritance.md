@@ -303,8 +303,8 @@ cap.sayHi();
 
 ### Output
 53 Steve
-53 Steve
-53 Steve
+54 Steve
+55 Steve
 
 ---
 # Behaviour of this
