@@ -357,7 +357,7 @@ function resolveAfterNSeconds(n, x) {
     let q = resolveAfterNSeconds(1000, 5);
     // Output, total time
     console.log(x + y + z + await p + await q);
-  })();
+  });
 })();
 ```
 
