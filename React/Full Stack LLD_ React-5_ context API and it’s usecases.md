@@ -276,7 +276,7 @@ Ans: when we come back pagination is again reset to page number 1
 
 ### Solving the Issue -> State Uplifting?
 -> We can store pageState to the App and send this as a prop to the Home. 
-This is called Page Uplifting.
+This is called State Uplifting.
 
 Problem: if a component is removed from the UI
 Due to routing or any other reason. If we want to
@@ -284,7 +284,7 @@ preserve the state.
 Solution: uplift the state to an ancestor which will not be re-rendered.
 
 ### Issue-1 with State Uplifting 
-Page Uplifting also has a problem. Here, if I visit for All Categories I have page number 3 but for individual categories, there are not more than 2. So if I go to some other category, it is still on Page 3 and I will have to go previous which is again not a good user experience.
+State Uplifting also has a problem. Here, if I visit for All Categories I have page number 3 but for individual categories, there are not more than 2. So if I go to some other category, it is still on Page 3 and I will have to go previous which is again not a good user experience.
 
 **Solution** For this particular issue what we can do is, whenever there is any change in the Home Page, at that time we can set the page number to 1. This is for any type of operation.
 
