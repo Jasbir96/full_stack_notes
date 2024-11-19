@@ -298,13 +298,13 @@ cap.sayHi();
 
 ## Question Explanation
 - `cap.sayHi()` is executed, it has a cap as this, now it will print **53 Steve**, inside this `subInner()` is called, but it is an arrow function so it doesn't have its own this so it will take cap as this, so it will also print **53 Steve**, now again inside this `iAmInner()` is called, now again it is an arrow function so it doesn't have its own this. 
-- So it will `subInner()` for this, but it is also an arrow function so it will also not have its own this, so it will go to `sayHi()`, it has `cap` as this, so `iAmInner()` take `cap` as this and it will also print **53 Steve**.
+- So it will `subInner()` for this, but it is also an arrow function so it will also not have its own this, so it will go to `sayHi()`, it has `cap` as this, so `iAmInner()` take `cap` as this and it will also print **55 Steve**.
 
 
 ### Output
 53 Steve
-53 Steve
-53 Steve
+54 Steve
+55 Steve
 
 ---
 # Behaviour of this
