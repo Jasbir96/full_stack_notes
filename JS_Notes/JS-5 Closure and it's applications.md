@@ -418,7 +418,7 @@ function counter(args) {
 }
 console.log(counter(0)); // Output :  1
 console.log(counter()(0)); // Output : 2
-console.log(counter()()()()(0)); // Output : 3 
+console.log(counter()()()(0)); // Output : 3 
 ```  
 **Explanation:**
 
